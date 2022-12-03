@@ -1,0 +1,87 @@
+[
+  {
+    "address":
+    {
+      "id": 1,
+      "postalCode":"21000",
+      "city":"Split",
+      "street":"Slobode 43"
+    },
+    "firstName":"ante",
+    "lastName":"antic",
+    "device":
+    {
+      "month":"January",
+      "year":2021,
+      "energyConsumption":220
+    }
+  },
+  {
+    "address":
+    {
+      "id": 2,
+      "postalCode":"21000",
+      "city":"Split",
+      "street":"ulica 1"
+    },
+    "firstName":"maja",
+    "lastName":"majic",
+    "device":
+    {
+      "month":"November",
+      "year":2022,
+      "energyConsumption":100
+    }
+  },
+  {
+    "address":
+    {
+      "id": 3,
+      "postalCode":"10000",
+      "city":"Zagreb",
+      "street":"ulica 2"
+    },
+    "firstName":"mate",
+    "lastName":"matic",
+    "device":
+    {
+      "month":"February",
+      "year":2022,
+      "energyConsumption":300
+    }
+  },
+  {
+    "address":
+    {
+      "id": 4,
+      "postalCode":"10000",
+      "city":"Zagreb",
+      "street":"ulica 3"
+    },
+    "firstName":"stipe",
+    "lastName":"stipic",
+    "device":
+    {
+      "month":"March",
+      "year":2022,
+      "energyConsumption":222
+    }
+  },
+  {
+    "address":
+    {
+      "id": 5,
+      "postalCode":"10000",
+      "city":"Zagreb",
+      "street":"ulica 4"
+    },
+    "firstName":"anita",
+    "lastName":"anitic",
+    "device":
+    {
+      "month":"December",
+      "year":2022,
+      "energyConsumption":555
+    }
+  }
+]
