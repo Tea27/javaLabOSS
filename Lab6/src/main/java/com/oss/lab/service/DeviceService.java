@@ -2,6 +2,7 @@ package com.oss.lab.service;
 
 import com.oss.lab.models.Device;
 import com.oss.lab.repository.DeviceRepository;
+import com.oss.lab.repository.HistoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,13 +27,20 @@ public class DeviceService {
 
     public Device updateDevice(Device device, long id){
         if(repository.findById(id).isPresent()){
-            Device newDevice = repository.findById(id).get();
-//            newDevice.setMonth(device.getMonth());
-//            newDevice.setYear(device.getYear());
-//            newDevice.setEnergyConsumption(device.getEnergyConsumption());
-            device.setId(newDevice.getId());
-            repository.save(device);
+            var update = repository.findById(id).get();
+            update.setName(device.getName());
+            repository.save(update);
         }
         return null;
     }
+
+    public boolean delete(Long id) {
+        if (repository.findById(id).isPresent() ){
+            var device = repository.findById(id).get();
+            repository.delete(device);
+            return true;
+        }
+        return false;
+    }
+
 }

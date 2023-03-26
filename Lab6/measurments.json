@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "month":"january",
+    "year":2022,
+    "energyConsumption":400,
+    "device": {
+      "id": 1,
+      "name": "device1"
+    }
+  },
+  {
+    "id": 2,
+    "month":"february",
+    "year":2022,
+    "energyConsumption":300,
+    "device": {
+      "id": 1,
+      "name": "device1"
+    }
+  },
+  {
+    "id": 3,
+    "month":"march",
+    "year":2022,
+    "energyConsumption":211,
+    "device": {
+      "id": 1,
+      "name": "device1"
+    }
+  },
+  {
+    "id": 4,
+    "month":"january",
+    "year":2021,
+    "energyConsumption":400,
+    "device": {
+      "id": 2,
+      "name": "device2"
+    }
+  },
+  {
+    "id": 5,
+    "month":"february",
+    "year":2022,
+    "energyConsumption":500,
+    "device": {
+      "id": 2,
+      "name": "device2"
+    }
+  },
+  {
+    "id": 6,
+    "month":"march",
+    "year":2021,
+    "energyConsumption":400,
+    "device": {
+      "id": 3,
+      "name": "device3"
+    }
+  },
+  {
+    "id": 7,
+    "month":"july",
+    "year":1992,
+    "energyConsumption":100,
+    "device": {
+      "id": 4,
+      "name": "device4"
+    }
+  },
+  {
+    "id": 8,
+    "month":"october",
+    "year":2022,
+    "energyConsumption":222,
+    "device": {
+      "id": 5,
+      "name": "device5"
+    }
+  }
+
+]

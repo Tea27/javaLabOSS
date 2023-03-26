@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "firstName": "ante",
+    "lastName": "antic",
+    "address": {
+      "postalCode": "21000",
+      "city": "Split",
+      "street": "Ulica 1"
+    },
+    "device": {
+      "id": 1,
+      "name": "device1"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "mate",
+    "lastName": "matic",
+    "address": {
+      "postalCode": "21000",
+      "city": "Split",
+      "street": "Ulica 2"
+    },
+    "device": {
+      "id": 2,
+      "name": "device2"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "ana",
+    "lastName": "anic",
+    "address": {
+      "postalCode": "21000",
+      "city": "Split",
+      "street": "Ulica 3"
+    },
+    "device": {
+      "id": 3,
+      "name": "device3"
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "duje",
+    "lastName": "dujic",
+    "address": {
+      "postalCode": "21000",
+      "city": "Split",
+      "street": "Ulica 4"
+    },
+    "device": {
+      "id": 4,
+      "name": "device4"
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "ivana",
+    "lastName": "ivanic",
+    "address": {
+      "postalCode": "21000",
+      "city": "Split",
+      "street": "Ulica 5"
+    },
+    "device": {
+      "id": 5,
+      "name": "device5"
+    }
+  }
+]

@@ -1,8 +1,11 @@
 package com.oss.lab.controller;
 
+import com.oss.lab.exception.MyException;
+import com.oss.lab.models.Address;
 import com.oss.lab.models.Client;
 import com.oss.lab.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -21,8 +24,25 @@ public class ClientController {
     }
 
     @PostMapping("")
-    public ResponseEntity<Client> saveClient(Client client){
+    public ResponseEntity<Client> saveClient(@RequestBody Client client){
         return ResponseEntity.ok(clientService.saveClient(client));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Client> updateClient(@RequestBody Client client){
+        return ResponseEntity.ok(clientService.update(client));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Long> deleteClient(@PathVariable Long id) throws MyException {
+
+        var isRemoved = clientService.delete(id);
+
+        if (!isRemoved) {
+            throw new MyException("Client doesn't exist !!");
+        }
+
+        return new ResponseEntity<>(id, HttpStatus.OK);
     }
 
 

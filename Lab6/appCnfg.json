@@ -1,0 +1,35 @@
+[
+  {
+    "address":
+    {
+      "id": 1,
+      "postalCode":"21000",
+      "city":"Split",
+      "street":"Slobode43"
+    },
+    "firstName":"ante",
+    "lastName":"antic",
+    "device":
+    {
+      "name":"device1",
+      "history":2021
+    }
+  },
+  {
+    "address":
+    {
+      "id": 2,
+      "postalCode":"21000",
+      "city":"Split",
+      "street":"ulica 1"
+    },
+    "firstName":"maja",
+    "lastName":"majic",
+    "device":
+    {
+      "name":"device2",
+      "year":2022,
+      "energyConsumption":100
+    }
+  }
+]
